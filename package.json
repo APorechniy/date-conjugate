@@ -1,0 +1,23 @@
+{
+  "name": "date-conjugate",
+  "version": "1.0.0",
+  "description": "Easy way to conjugate your data for Russian users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APorechniy/date-conjugate"
+  },
+  "keywords": [
+    "conjugate",
+    "date"
+  ],
+  "author": "A.Porechniy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APorechniy/date-conjugate/issues"
+  },
+  "homepage": "https://github.com/APorechniy/date-conjugate"
+}

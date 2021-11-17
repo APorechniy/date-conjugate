@@ -1,6 +1,6 @@
 {
   "name": "date-conjugate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Easy way to conjugate your data for Russian users",
   "main": "index.js",
   "scripts": {

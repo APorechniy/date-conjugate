@@ -1,20 +1,20 @@
 const returned = (number, type) => {
   if (Array.isArray(type)) {
-    if (lastNumber === '1') {
+    if (number === '1') {
       return `${number} ${type[0]}`
     }
 
-    if (lastNumber === '2' || lastNumber === '3' || lastNumber === '4') {
+    if (number === '2' || number === '3' || number === '4') {
       return `${number} ${type[1]}`
     }
 
     if (
-      lastNumber === '5' ||
-      lastNumber === '6' ||
-      lastNumber === '7' ||
-      lastNumber === '8' ||
-      lastNumber === '9' ||
-      lastNumber === '0'
+      number === '5' ||
+      number === '6' ||
+      number === '7' ||
+      number === '8' ||
+      number === '9' ||
+      number === '0'
     ) {
       return `${number} ${type[2]}`
     }

@@ -17,5 +17,6 @@ return dateConjugate('2027', 'year') // returned '2021 лет'
 ## Props
 
 | name | type | use |
+|----------------|:---------:|----------------:|
 | number | number | number of date |
 | type | 'year' or 'month' or 'day' | type of your number date |

@@ -26,17 +26,18 @@ const returned = (number, type) => {
 
 export const dateConjugate = (number, type) => {
   const lastNumber = number.toString().slice(-1)
+  let typeArray;
   switch (type) {
     case 'day':
-      const typeArray = ['день', 'дня', 'дней']
+      typeArray = ['день', 'дня', 'дней']
       return returned(lastNumber, typeArray)
       break;  
     case 'month':
-      const typeArray = ['месяц', 'месяца', 'месяцев']
+      typeArray = ['месяц', 'месяца', 'месяцев']
       return returned(lastNumber, typeArray)
       break;  
     case 'year':
-      const typeArray = ['год', 'года', 'лет']
+      typeArray = ['год', 'года', 'лет']
       return returned(lastNumber, typeArray)
       break;  
     default:
